@@ -1,20 +1,3 @@
-# app.py
-# Minimal demo: Embed a React (Recharts) component inside Streamlit
-# -----------------------------------------------------------------------------
-# Prereqs in this repo:
-# - components/recharts/frontend/... (Vite + React + Recharts) built to dist/
-# - components/recharts/__init__.py declares the component and serves frontend_dist
-#
-# Build & run (Docker):
-#   docker compose build
-#   docker compose up -d
-#   open http://localhost:8501
-#
-# Local:
-#   pip install -r requirements.txt
-#   streamlit run app.py
-# -----------------------------------------------------------------------------
-
 import streamlit as st
 import pandas as pd
 from components.recharts import recharts  # <-- our custom component wrapper

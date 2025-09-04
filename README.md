@@ -49,17 +49,8 @@ Before using the Makefile commands, ensure you have:
 ## Commands
 
 - **Build the image**
-  ```bash
-  make build
-
-```
+  `make build`
 - **Start the app**
-  ```bash
-  make up
-
-```
+  `make up`
 - **Stop the app**
-  ```bash
-  make build
-
-```
+  `make build`

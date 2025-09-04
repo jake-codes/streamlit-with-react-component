@@ -55,3 +55,16 @@ Before using the Makefile commands, ensure you have:
   `make up`
 - **Stop the app**
   `make build`
+
+
+---
+## 👀 Viewing the App
+
+Once the app is started, open your browser and go to:
+
+👉 [http://localhost:8501](http://localhost:8501)
+
+You should see the Streamlit app running with the embedded **React (Recharts)** chart.
+
+### Example screenshot
+![App Screenshot](screenshot.png)

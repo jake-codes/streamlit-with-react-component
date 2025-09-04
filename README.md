@@ -14,6 +14,7 @@ It uses [Recharts](https://recharts.org/) (a React charting library) to render c
 ---
 
 ## 🗂 Project structure
+```
 ├── app.py # Minimal Streamlit app embedding React
 ├── components/
 │ └── recharts/
@@ -30,7 +31,7 @@ It uses [Recharts](https://recharts.org/) (a React charting library) to render c
 ├── Dockerfile # Multi-stage build (Node + Python)
 ├── docker-compose.yml
 └── README.md
-
+```
 
 ---
 ## ✅ Requirements
